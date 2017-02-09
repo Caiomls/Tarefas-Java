@@ -1,0 +1,23 @@
+Public Class ProdutoCarro {
+  Private String corCarro
+  Private String marcaCarro
+  Private String tipoCarro 
+  Public String getCorCarro(){
+    return corCarro;
+  }
+  Public String getMarcaCarro(){
+    return marcaCarro;
+  }
+  Public String getTipoCarro(){
+    return tipoCarro;
+  }
+  Public String setCorCarro(){
+    this.corCarro = corCarro;
+  }
+  Public String setMarcaCarro(){
+    this.marcaCarro = marcaCarro;
+  }
+  Public String setTipoCarro(){
+    this.tipoCarro = tipoCarro;
+  }
+}
