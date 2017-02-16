@@ -7,9 +7,11 @@ public class Cerveja {
 		int cervas = leitor.nextInt();
 		
 		while (cervas > 0){
-			cervas = cervas - 1;
 			System.out.println("Pego uma garrafa, passo para frente.");
 			System.out.println(cervas +" cervejas no freezer");
+			cervas = cervas - 1;
+			System.out.println("Agora são "+ cervas + " na Freezer");
+		
 		}
 	leitor.close();
 	}
