@@ -6,12 +6,7 @@ Carro fusca = new Carro();
 Carro jipe = new Carro();
 fusca.marca = "Volkswagen";
 fusca.modelo = "Fusca";
-fusca.acelerar();
-fusca.acelerar();
-fusca.acelerar();
-fusca.desacelerar();
 
-	System.out.println(fusca.getVelocidade());
 
 
 
