@@ -11,7 +11,13 @@ public class Cerveja {
 			System.out.println(cervas +" cervejas no freezer");
 			cervas = cervas - 1;
 			System.out.println("Agora são "+ cervas + " na Freezer");
-		
+			if (cervas == 0){
+				System.out.println("Cerveja acabou :( ");
+				System.out.println("Quantas cervejas deseja adicionar?");
+				cervas = leitor.nextInt();
+				System.out.println(cervas +" Adicionadas");
+			}
+			
 		}
 	leitor.close();
 	}
