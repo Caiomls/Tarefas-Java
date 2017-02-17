@@ -1,5 +1,9 @@
 package br.unipe.java.unidade1;
-
+/**
+ *	Essa foi nossa primeira aula com o eclipse propriamente dito
+ *
+ *
+ */
 public class Carro {
 	
 	private String motor;
